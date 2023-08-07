@@ -14,32 +14,32 @@ const Skills = ()=> {
           <p className="py-6">#These are the technologies I've worked with</p>
         </div>
         <div className='w-full grid gap-4 py-8 text-center justify-center items-center lg:grid-cols-4 sm:grid-cols-3 grid-cols-2'>
-           <div className='shadow-md shadow-[#f06529] w-[200px] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
-            <img className='w-20 ' src={HTML} alt="html icon" />
+           <div className='shadow-md shadow-[#f06529] w-[150px] md:w-[200] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
+            <img className='md:w-20 w-16' src={HTML} alt="html icon" />
             <p className=' my-4'>HTML</p>
           </div>
-          <div className='shadow-md shadow-[#2965f1]  w-[200px] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
-            <img className='w-20 ' src={CSS} alt="html icon" />
+          <div className='shadow-md shadow-[#2965f1]  w-[150px] md:w-[200] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
+            <img className='md:w-20 w-16' src={CSS} alt="html icon" />
             <p className='my-4'>CSS</p>
           </div>
-         <div className='shadow-md shadow-[#f0db4f]  w-[200px] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
-            <img className='w-20' src={JS} alt="html icon" />
+         <div className='shadow-md shadow-[#f0db4f]  w-[150px] md:w-[200] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
+            <img className='md:w-20 w-16' src={JS} alt="html icon" />
             <p className='my-4'>JAVASCRIPT</p>
           </div>
-          <div className='shadow-md shadow-[#61dbfb]  w-[200px] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
-            <img className='w-20' src={REACT} alt="html icon" />
+          <div className='shadow-md shadow-[#61dbfb]  w-[150px] md:w-[200] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
+            <img className='md:w-20 w-16' src={REACT} alt="html icon" />
             <p className='my-4'>REACT</p>
           </div>
-          <div className='shadow-md shadow-[#4dc0b5]  w-[200px] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
-            <img className='w-20' src={TAILWIND} alt="html icon" />
+          <div className='shadow-md shadow-[#4dc0b5]  w-[150px] md:w-[200] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
+            <img className='md:w-20 w-16' src={TAILWIND} alt="html icon" />
             <p className='my-4'>TAILWIND</p>
           </div>
-           <div className='shadow-md shadow-gray-200 w-[200px] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
-            <img className='w-20 ' src={GITHUB} alt="html icon" />
+           <div className='shadow-md shadow-gray-200 w-[150px] md:w-[200] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
+            <img className='md:w-20 w-16' src={GITHUB} alt="html icon" />
             <p className='my-4'>GITHUB</p>
           </div>
-          <div className='shadow-md shadow-[#68a063]  w-[200px] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
-            <img className='w-20 ' src={NODE} alt="html icon" />
+          <div className='shadow-md shadow-[#68a063]  w-[150px] md:w-[200] mx-auto hover:scale-110 duration-500 flex flex-col items-center justify-center h-[150px]'>
+            <img className='md:w-20 w-16' src={NODE} alt="html icon" />
             <p className='my-4'>NODE JS</p>
           </div>
         </div>
