@@ -7,14 +7,14 @@ import Projects from "./components/Projects";
 
 const App = ()=> {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Projects />
       <Contact />
-    </>
+    </div>
   )
 }
 
