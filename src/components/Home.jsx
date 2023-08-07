@@ -6,7 +6,7 @@ const Home = () => {
       <div className=" max-w-[950px] mx-auto flex flex-col relative top-[30vh] md:top-[25vh]  sm:top-[20vh]  justify-center  px-10">
         <p className="relative text-[#81effd] z-2">
           Hi, I am
-          <span className=" bg-[url('./assets/logo.svg')] top-[-85px] md:top-[-79px]  sm:bg-[length:500px_400px] w-[300px]   absolute bg-no-repeat  bg-center  bg-[length:300px_300px] opacity-[.3] h-[400px]  sm:w-[500px]"></span>
+          <span className=" bg-[url('./assets/logo.svg')] top-[-85px] md:top-[-79px]  sm:bg-[length:500px_400px] overflow-x-hidden w-[300px]   absolute bg-no-repeat  bg-center  bg-[length:300px_300px] opacity-[.3] h-[400px]  sm:w-[500px]"></span>
         </p>
         <div className="relative">
           <h1 className=" text-4xl sm:text-7xl font-bold text-[#e5e9f8]">
