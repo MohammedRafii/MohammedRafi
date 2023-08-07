@@ -28,8 +28,9 @@ const Navbar = () => {
             to="home"
             spy={true}
             smooth={true}
+            name="active"
             duration={500}
-            className="cursor-pointer active:text-[#86EAF8] hover:text-[#86EAF8] duration-100"
+            className="cursor-pointer  hover:text-[#86EAF8] duration-100"
           >
             Home
           </Link>
@@ -40,7 +41,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="cursor-pointer active:text-[#86EAF8] hover:text-[#86EAF8] duration-100"
+            className="cursor-pointer  hover:text-[#86EAF8] duration-100"
           >
             About
           </Link>
@@ -51,7 +52,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="cursor-pointer active:text-[#86EAF8] hover:text-[#86EAF8] duration-100"
+            className="cursor-pointer  hover:text-[#86EAF8] duration-100"
           >
             Skills
           </Link>
@@ -62,7 +63,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="cursor-pointer active:text-[#86EAF8] hover:text-[#86EAF8] duration-100"
+            className="cursor-pointer  hover:text-[#86EAF8] duration-100"
           >
             Projects
           </Link>
@@ -73,7 +74,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="cursor-pointer active:text-[#86EAF8] hover:text-[#86EAF8] duration-100"
+            className="cursor-pointer  hover:text-[#86EAF8] duration-100"
           >
             Contacts
           </Link>
@@ -104,7 +105,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="active:text-[#86EAF8] duration-100 cursor-pointer"
+              className="duration-100 cursor-pointer"
             >
               Home
             </Link>
@@ -116,7 +117,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="active:text-[#86EAF8] duration-100 cursor-pointer"
+              className="duration-100 cursor-pointer"
             >
               About
             </Link>
@@ -128,7 +129,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="active:text-[#86EAF8] duration-100 cursor-pointer"
+              className="duration-100 cursor-pointer"
             >
               Skills
             </Link>
@@ -140,7 +141,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="active:text-[#86EAF8] duration-100 cursor-pointer"
+              className="duration-100 cursor-pointer"
             >
               Projects
             </Link>
@@ -152,7 +153,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="active:text-[#86EAF8] duration-100 cursor-pointer"
+              className="duration-100 cursor-pointer"
             >
               Contacts
             </Link>

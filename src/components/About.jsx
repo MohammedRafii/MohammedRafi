@@ -6,8 +6,8 @@ const About = ()=> {
       </div>
       <div className="sm:w-[80%] mt-8 mb-2 grid  sm:grid-cols-2 justify-center">
         <p className="sm:text-right text-4xl mx-4 mb-4">Hi I'm Mohammed Rafi, nice to meet you. Please take a look around. </p>
-        <p className="mx-4 text-xl"><span className="border-b border-[#86EAF8]">Qualifications</span> : <b className="text-xl"> BCA </b>at C Abdul Hakeem College Melvisharam Vellore
-        From 2018 To 2021
+        <p className="mx-4 text-xl"><span className="border-b border-[#86EAF8]">Qualifications</span> : <b className="text-xl"> BCA </b> <p className="text-[#86EAF8]"> at C Abdul Hakeem College Melvisharam Vellore
+        From 2018 To 2021</p>
         </p>
         
       </div>
