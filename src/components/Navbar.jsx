@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const handleClick = () => setIsOpen(!isOpen);
   return (
-    <div className="bg-[#0b0e0a] top-0 fixed z-20  text-[#fff] h-[80px] w-full flex justify-between items-center px-4 ">
+    <div className="bg-[#0b0e0a] top-0 fixed z-20  text-[#fff] h-[80px] w-screen flex justify-between items-center px-4 ">
       <div>
         <Link to="home" spy={true} smooth={true} duration={500}>
           <img src={Logo} alt="logo img" style={{ width: "80px" }} />
