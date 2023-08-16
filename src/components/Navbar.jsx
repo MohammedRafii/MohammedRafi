@@ -2,7 +2,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.svg";
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/myResume.pdf";
 import useClickOutside from "../useClickOutside";
 
 import { useRef, useState } from "react";
