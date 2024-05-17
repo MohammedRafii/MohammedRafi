@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../assets/myResume.pdf';
+import Resume from '../assets/Mohammed_Rafi.pdf';
 import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
